@@ -27,6 +27,7 @@ public class AdminAction {
         if(admin != null){
             request.setAttribute("admin",admin);
             System.out.println("登录成功");
+            logger.info("nihao");
             //登录成功
             return "main";
         }else{
